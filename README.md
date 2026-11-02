@@ -80,3 +80,7 @@ See [validation](docs/VALIDATION.md), [prior art](docs/RESEARCH.md), and [limita
 Visual hulls and computational shadow art are established. This implementation explores a compact, local-first draw → reconstruct → verify → export experience. Prior concepts were brainstormed with AI; this is a fresh implementation of Umbra. Three.js and Vite are dependencies; their exact pinned versions were reused from an existing local dependency installation after sandbox DNS prevented a fresh install. No old application source was copied. AI assistance contributed code, tests, design, documentation and demonstration preparation. See [third-party notices](THIRD_PARTY.md).
 
 MIT licensed. See [LICENSE](LICENSE).
+
+## Working demonstration
+[Watch the narrated automated walkthrough](https://youtu.be/C3oyfSfpNKQ). The recording runs the actual geometry and renderer. Synthetic system-voice narration and extensive AI development assistance are disclosed. See docs/SUBMISSION.md for the written hackathon description.
+

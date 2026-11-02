@@ -35,3 +35,7 @@ Physical fabrication, actual iPhone use, user-study outcomes and arbitrary-model
 ## Hosted and responsive verification
 The public GitHub Pages build was opened in Chrome without a sign-in gate. At an explicit 390-pixel viewport, innerWidth was 390 and document scrollWidth was 375, with no horizontal overflow; a full-page screenshot was visually inspected. The narrow layout moves the studio before the drawing tools. This is a desktop browser viewport check, not actual iPhone hardware testing. GitHub Actions test/build run 41353990650 and Pages deployment run 41354025756 completed successfully. A separate owner-private Sites deployment also succeeded.
 
+
+## Additional end-to-end checks
+On the public app, a direct pointer drag changed front-target IoU to 97.8%, produced four incompatible rows, and changed geometry volume to 14,515 cells. Undo restored the prior design. A real saved JSON was opened through the file chooser; the app recomputed 14,417 cells and 100%/100% agreement. Reload preserved the project. Stage PNG export produced an 87,288-byte file. The final live-runtime WebM was converted to H.264/AAC MP4: ffprobe reports 1280x720, 30fps, exactly 150.000 seconds. Representative frames were visually inspected. The narrated video was published unlisted on YouTube at https://youtu.be/C3oyfSfpNKQ; YouTube's copyright check reported no issues at publication time. No claim is made that future copyright checks cannot change.
+
