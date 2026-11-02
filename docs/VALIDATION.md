@@ -31,3 +31,7 @@ Desktop screenshots were captured from the actual app. Additional import/reload,
 ## Not established
 
 Physical fabrication, actual iPhone use, user-study outcomes and arbitrary-model support are not verified. No result here establishes novelty, adoption or winning likelihood.
+
+## Hosted and responsive verification
+The public GitHub Pages build was opened in Chrome without a sign-in gate. At an explicit 390-pixel viewport, innerWidth was 390 and document scrollWidth was 375, with no horizontal overflow; a full-page screenshot was visually inspected. The narrow layout moves the studio before the drawing tools. This is a desktop browser viewport check, not actual iPhone hardware testing. GitHub Actions test/build run 41353990650 and Pages deployment run 41354025756 completed successfully. A separate owner-private Sites deployment also succeeded.
+

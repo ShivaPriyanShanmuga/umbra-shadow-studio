@@ -4,6 +4,8 @@
 
 Built for the **General Track of Arbiter Hacks V1**, starting November 1, 2026, with AI assistance. This is an inverse-geometry tool, not an AI image generator. It does not require an account, API credential, camera, or paid service to run locally.
 
+**[Open the public studio](https://shivapriyanshanmuga.github.io/umbra-shadow-studio/)** · [Passing test/build workflow](https://github.com/ShivaPriyanShanmuga/umbra-shadow-studio/actions/runs/41353990650)
+
 ![Actual Umbra interface](docs/desktop.jpg)
 
 ## Run
