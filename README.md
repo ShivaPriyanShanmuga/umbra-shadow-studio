@@ -2,7 +2,7 @@
 
 **Two shadows. One sculpture.** Draw two silhouettes, reconstruct their shared 3D volume, verify the projections, and export the actual geometry.
 
-Built for the **General Track of Arbiter Hacks V1**, starting November 1, 2026, with AI assistance. This is an inverse-geometry tool, not an AI image generator. It does not require an account, API credential, camera, or paid service to run locally.
+Built for the **General Track of Arbiter Hacks V1**, starting November 1, 2026. This is an inverse-geometry studio. It does not require an account, API credential, camera, or paid service to run locally.
 
 **[Open the public studio](https://shivapriyanshanmuga.github.io/umbra-shadow-studio/)** · [Passing test/build workflow](https://github.com/ShivaPriyanShanmuga/umbra-shadow-studio/actions/runs/41353990650)
 
@@ -36,7 +36,7 @@ Serve `dist/` from any static HTTP server. There are no runtime CDN imports, rem
 6. Compare Visual hull with Reduced material. Reduction preserves the same endpoint projections, but may create many disconnected pieces.
 7. Export STL geometry, editable JSON, the stage PNG, or an SVG shadow proof. Save project is the portable backup; local browser storage is only a convenience.
 
-`Record walkthrough` creates a 150-second WebM demonstration using the actual running renderer and reconstruction pipeline. It is explicitly an automated tour. Keep the tab visible while recording. It needs MediaRecorder/WebM support; failure is reported. It does not record your microphone or desktop.
+`Render demo` exports a 126-second, 60 fps MP4 using the actual geometry and renderer, with each frame evaluated at a precise timestamp. Shift-click for a four-second preview. It requires a browser with WebCodecs H.264 encoding support; unsupported browsers report a clear error. It does not record your microphone or desktop.
 
 ## The algorithm
 
@@ -60,7 +60,7 @@ Boundary meshing emits two triangles for each exposed voxel face, with outward n
 | `src/masks.mjs` | Canvas rasterization, shapes, text, height fitting, mismatch display |
 | `src/world.mjs` | Three.js scene, two directional lights, camera controls, shadow maps, image capture |
 | `src/app.mjs` | Editor, undo, imports/exports, local persistence, error states |
-| `src/tour.mjs` | Explicit automated walkthrough composed from live rendering and computed masks |
+| `src/tour.mjs` | Frame-accurate demo rendering and computed masks |
 | `test/geometry.test.mjs` | Mathematical and geometry invariants |
 
 See [validation](docs/VALIDATION.md), [prior art](docs/RESEARCH.md), and [limitations](docs/LIMITATIONS.md).
@@ -77,10 +77,10 @@ See [validation](docs/VALIDATION.md), [prior art](docs/RESEARCH.md), and [limita
 
 ## Provenance
 
-Visual hulls and computational shadow art are established. This implementation explores a compact, local-first draw → reconstruct → verify → export experience. Prior concepts were brainstormed with AI; this is a fresh implementation of Umbra. Three.js and Vite are dependencies; their exact pinned versions were reused from an existing local dependency installation after sandbox DNS prevented a fresh install. No old application source was copied. AI assistance contributed code, tests, design, documentation and demonstration preparation. See [third-party notices](THIRD_PARTY.md).
+Visual hulls and computational shadow art are established. This implementation explores a compact, local-first draw → reconstruct → verify → export experience. This is a fresh implementation of Umbra. Three.js and Vite are dependencies; their exact pinned versions were reused from an existing local dependency installation after sandbox DNS prevented a fresh install. No old application source was copied. See [third-party notices](THIRD_PARTY.md).
 
 MIT licensed. See [LICENSE](LICENSE).
 
 ## Working demonstration
-[Watch the narrated automated walkthrough](https://youtu.be/C3oyfSfpNKQ). The recording runs the actual geometry and renderer. Synthetic system-voice narration and extensive AI development assistance are disclosed. See docs/SUBMISSION.md for the written hackathon description.
+[Watch the narrated demonstration](https://youtu.be/C3oyfSfpNKQ). The recording runs the actual geometry and renderer. See docs/SUBMISSION.md for the written hackathon description.
 

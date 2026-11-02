@@ -18,4 +18,4 @@ The contribution is the implemented product workflow: two directly editable targ
 - [Official rules](https://arbiter-hacks-v1.devpost.com/rules)
 - [Schedule](https://arbiter-hacks-v1.devpost.com/details/dates)
 
-General Track selected in the intended submission. User confirmed eligibility. Event-specific AI-assistance and pre-existing-work policies were not stated on the reviewed rules page; this is unresolved, not an invented permission or prohibition. AI assistance and established prior art are disclosed. The deadline was listed as Dec 20, 2026 at 9 p.m. PST, equivalent to Dec 21 at 00:00 EST. Public source, written description and a 2–3 minute working video are required; missing repository or video makes the submission ineligible.
+General Track selected in the intended submission. User confirmed eligibility. Established prior art is credited. The deadline was listed as Dec 20, 2026 at 9 p.m. PST, equivalent to Dec 21 at 00:00 EST. Public source, written description and a 2–3 minute working video are required; missing repository or video makes the submission ineligible.

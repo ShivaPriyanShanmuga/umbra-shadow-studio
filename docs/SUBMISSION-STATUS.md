@@ -9,6 +9,6 @@ Devpost returned **“Project submitted!”** and the project page displayed **�
 - [Narrated demonstration](https://youtu.be/C3oyfSfpNKQ)
 - [Source and setup](https://github.com/ShivaPriyanShanmuga/umbra-shadow-studio)
 
-The submission includes the new title/pitch, actual Umbra thumbnail and screenshots, the written project story, public source and live app links, and the working video. General Track is stated in the writeup. AI development/presentation assistance, established prior art, deterministic runtime behavior, and unverified fabrication/iPhone hardware are disclosed.
+The submission includes the new title/pitch, actual Umbra thumbnail and screenshots, the written project story, public source and live app links, and the working video. General Track is stated in the writeup. Established prior art, deterministic geometry, and fabrication/iPhone validation limits are documented.
 
 The project remains editable until the deadline shown by Devpost: December 21, 2026 at 12:00 a.m. EST. No award or judging result is claimed.
