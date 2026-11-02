@@ -4,7 +4,7 @@
 
 Built for the **General Track of Arbiter Hacks V1**, starting November 1, 2026. This is an inverse-geometry studio. It does not require an account, API credential, camera, or paid service to run locally.
 
-**[Open the public studio](https://shivapriyanshanmuga.github.io/umbra-shadow-studio/)** · [Passing test/build workflow](https://github.com/ShivaPriyanShanmuga/umbra-shadow-studio/actions/runs/41353990650)
+**[Open the public studio](https://shivapriyanshanmuga.github.io/umbra-shadow-studio/)** · [Passing test/build workflow](https://github.com/ShivaPriyanShanmuga/umbra-shadow-studio/actions/runs/41374359257)
 
 ![Actual Umbra interface](docs/desktop.jpg)
 
@@ -82,5 +82,5 @@ Visual hulls and computational shadow art are established. This implementation e
 MIT licensed. See [LICENSE](LICENSE).
 
 ## Working demonstration
-[Watch the narrated demonstration](https://youtu.be/C3oyfSfpNKQ). The recording runs the actual geometry and renderer. See docs/SUBMISSION.md for the written hackathon description.
+[Watch the narrated demonstration](https://youtu.be/LzysLYKsMy4). The recording runs the actual geometry and renderer. See docs/SUBMISSION.md for the written hackathon description.
 
